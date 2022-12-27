@@ -1,9 +1,9 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
-import Home from './components/pages/Home'
-import Logement from './components/pages/Logement'
-import About from './components/pages/About'
-import Error from './components/pages/Error'
+import Home from './pages/Home'
+import Logement from './pages/Logement'
+import About from './pages/About'
+import Error from './pages/Error'
 
 function App() {
   return (
