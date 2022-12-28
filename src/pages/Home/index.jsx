@@ -1,13 +1,14 @@
 import './index.scss'
 import Header from '../../components/header'
-import HomeBanner from '../../components/homebanner'
+import Banner from '../../components/banner'
 import Footer from '../../components/footer'
+// import image
 
 export default function Home() {
   return (
     <div>
       <Header />
-      <HomeBanner />
+      <Banner />
       <Footer />
     </div>
   )
