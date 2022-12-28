@@ -1,6 +1,6 @@
-import './index.scss'
+import './Header.scss'
 import LOGO from '../../assets/LOGO.png'
-import Navbar from '../navbar'
+import Navbar from '../navbar/Navbar'
 import { Link } from 'react-router-dom'
 
 export default function Header() {

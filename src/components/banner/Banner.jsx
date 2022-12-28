@@ -1,4 +1,4 @@
-import './index.scss'
+import './Banner.scss'
 import IMGHOME from '../../assets/IMGHOME.png'
 
 export default function banner() {
