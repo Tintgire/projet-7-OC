@@ -1,0 +1,20 @@
+footer {
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+
+    .logo-footer {
+        width: 122px;
+        object-fit: cover;
+        margin-top: 60px;
+    }
+
+    .kasarights {
+        color: #FFFFFF;
+        font-weight: 500;
+        font-size: 24px;
+        margin-top: 3%;
+    }
+}
