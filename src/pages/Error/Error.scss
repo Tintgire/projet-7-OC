@@ -1,0 +1,23 @@
+.error {
+
+    color: #FF6060;
+    display: flex;
+    justify-content: center;
+
+    &__tittle {
+        font-weight: 700;
+        font-size: 288px;
+    }
+
+    &__second {
+        font-weight: 500;
+        font-size: 36px;
+        text-align: center;
+    }
+
+    &__third {
+        font-weight: 500;
+        font-size: 18px;
+        border-bottom: 1px solid #FF6060;
+    }
+}
