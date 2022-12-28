@@ -1,3 +1,35 @@
-.imghome {
-    margin: 0;
+.homeBanner {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 223px;
+    margin-top: 70px;
+
+    &__imghome {
+        object-fit: cover;
+
+    }
+
+    &__overlay {
+        background: #000000;
+        mix-blend-mode: darken;
+        opacity: 0.3;
+
+    }
+
+    .background {
+        position: absolute;
+        height: 100%;
+        width: 90%;
+        border-radius: 25px;
+    }
+}
+
+h1 {
+    display: flex;
+    align-self: center;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 48px;
+    z-index: 1;
 }
