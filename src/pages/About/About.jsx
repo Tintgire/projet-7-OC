@@ -4,12 +4,12 @@ import Footer from '../../components/footer/Footer'
 import IMGABOUT from '../../assets/IMGABOUT.png'
 
 export default function About() {
-  const textHOME = ''
-  const altHOME = 'image de montagne avec un arbre sur le côté'
+  const textABOUT = ''
+  const altABOUT = 'image de montagne avec un arbre sur le côté'
   return (
     <div>
       <Header />
-      <Banner text={textHOME} src={IMGABOUT} alt={altHOME} />
+      <Banner text={textABOUT} src={IMGABOUT} alt={altABOUT} />
       <Footer />
     </div>
   )
