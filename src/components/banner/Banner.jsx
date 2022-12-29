@@ -1,13 +1,13 @@
 import './Banner.scss'
 import IMGHOME from '../../assets/IMGHOME.png'
 
-export default function banner() {
+export default function banner(props) {
   return (
-    /* render */
+    /* render Chez vous, partout et ailleurs*/
     <div className="banner">
       <img className="banner__imghome background" src={IMGHOME} alt="IMGHOME" />
       <div className="banner__overlay background"></div>
-      <h1>Chez vous, partout et ailleurs</h1>
+      <h1>{props.data}</h1>
     </div>
   )
 }
