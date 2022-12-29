@@ -1,6 +1,7 @@
 import Header from '../../components/header/Header'
 import Banner from '../../components/banner/Banner'
 import Footer from '../../components/footer/Footer'
+import Collapse from '../../components/collapse/Collapse'
 import IMGABOUT from '../../assets/IMGABOUT.png'
 
 export default function About() {
@@ -10,6 +11,7 @@ export default function About() {
     <div>
       <Header />
       <Banner text={textABOUT} src={IMGABOUT} alt={altABOUT} />
+      <Collapse />
       <Footer />
     </div>
   )
