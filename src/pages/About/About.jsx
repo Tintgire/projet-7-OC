@@ -5,7 +5,7 @@ import IMGABOUT from '../../assets/IMGABOUT.png'
 
 export default function About() {
   const textHOME = ''
-  const altHOME = 'image de Koh avec une vue mer'
+  const altHOME = 'image de montagne avec un arbre sur le côté'
   return (
     <div>
       <Header />
