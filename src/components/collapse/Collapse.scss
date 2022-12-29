@@ -27,10 +27,12 @@ button {
 
 .vector {
     transform: rotate(0deg);
+    transition: transform 500ms ease;
 }
 
 .vectordown {
     transform: rotate(180deg);
+    transition: transform 500ms ease;
 }
 
 .texte {
