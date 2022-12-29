@@ -4,11 +4,11 @@ import Footer from '../../components/footer/Footer'
 // import image
 
 export default function Home() {
-  const text = 'Chez vous, partout et ailleurs'
+  const textparagraphe = 'Chez vous, partout et ailleurs'
   return (
     <div>
       <Header />
-      <Banner data={text} />
+      <Banner text={textparagraphe} />
       <Footer />
     </div>
   )
