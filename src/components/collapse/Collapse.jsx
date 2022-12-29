@@ -49,7 +49,7 @@ export default function Collapse() {
               <h2>{item.title}</h2>
               <button>
                 <img
-                  className="vector"
+                  className={selected === i ? 'vector' : 'vectordown'}
                   onClick={() => toggle(i)}
                   src={Vector}
                   alt="arrow"
