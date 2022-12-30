@@ -40,8 +40,18 @@ button {
     font-size: 24px;
     font-weight: 400;
     padding: 0px 25px;
+    height: auto;
+    max-height: 9999px;
+    transition: all 1s cubic-bezier(1, 0, 1, 0);
 }
 
 .textedown {
-    content-visibility: hidden;
+    color: #FF6060;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 0px 25px;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 1s cubic-bezier(0, 1, 0, 1);
+
 }
