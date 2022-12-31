@@ -1,0 +1,56 @@
+.carrousel {
+    margin: 5% 5%;
+    height: 415px;
+    overflow: hidden;
+    display: flex;
+    border-radius: 25px;
+    position: relative;
+    flex-direction: column;
+
+    .imgabout {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 25px;
+    }
+
+    .carrousel-overlay {
+        background: #000000;
+        mix-blend-mode: darken;
+        opacity: 0.1;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        border-radius: 25px;
+    }
+
+    .arrowleft,
+    .arrowright {
+        position: absolute;
+        top: 40%;
+        cursor: pointer;
+    }
+
+    .arrowleft {
+
+        left: 2%;
+    }
+
+    .arrowright {
+
+        right: 2%;
+    }
+
+    .numberimg {
+        position: absolute;
+        color: #ffffff;
+        font-size: 20px;
+        bottom: 2%;
+        left: 50%;
+    }
+
+    .slide {
+        border-radius: 25px;
+        display: flex;
+        height: 100%;
+    }
+}
