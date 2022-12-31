@@ -15,7 +15,10 @@ article,
 }
 
 article {
-    margin: 5% 0%;
+    margin: 4% 0%;
+    display: flex;
+    justify-content: center;
+    width: 33.33%;
 }
 
 .card {
