@@ -4,7 +4,6 @@ import { useState } from 'react'
 import CardItems from '../../DataBase/logement.js'
 import Vectorleft from '../../assets/Vectorleft.png'
 import Vectorright from '../../assets/Vectorright.png'
-//import test from '../../assets/test.png'
 
 export default function Carrousel() {
   const { id } = useParams()
