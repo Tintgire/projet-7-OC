@@ -18,7 +18,7 @@ export default function Logement() {
     <div>
       <Header />
       <Carrousel />
-      <div>
+      <div className="collapse-logement">
         <Collapse title="Description" texte={foundItem.description} />
         <Collapse title="Équipements" texte={listequipments} />
       </div>
