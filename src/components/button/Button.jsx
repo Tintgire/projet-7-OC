@@ -1,5 +1,5 @@
 import './Button.scss'
 
-export default function Button() {
-  return <div>Button</div>
+export default function Button({ tags }) {
+  return <button className="logement-button">{tags}</button>
 }
