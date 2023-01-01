@@ -14,7 +14,7 @@ export default function Collapse({ id, title, texte, i }) {
   }
 
   return (
-    <div key={id}>
+    <div key={id} className="collapse">
       <div className="title">
         <h2>{title}</h2>
         <button className="button-collapse">
