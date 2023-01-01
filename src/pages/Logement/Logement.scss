@@ -1,7 +1,33 @@
+.logement {
+
+    .logement-title {
+        color: #FF6060;
+        font-size: 36px;
+        line-height: 51px;
+        margin: 0% 5%;
+    }
+
+    .logement-location {
+        color: #FF6060;
+        font-size: 18px;
+        line-height: 26px;
+        margin: 1% 5% 2% 5%;
+    }
+
+    .logement-all-button {
+        display: flex;
+        margin: 0% 5% 2% 5%;
+    }
+
+    .logement-button {
+        margin-right: 10px;
+    }
+}
+
 .collapse-logement {
     display: flex;
     justify-content: space-between;
-    margin: 0% 5%;
+    margin: 0% 5% 10% 5%;
 
     .collapse {
         width: 45%;
