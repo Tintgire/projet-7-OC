@@ -1,5 +1,9 @@
 .wrapper {
     margin: 5% 10% 5% 10%;
+
+    @media (max-width: 768px) {
+        margin: 5%;
+    }
 }
 
 footer {

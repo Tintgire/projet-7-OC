@@ -5,12 +5,23 @@
         font-size: 36px;
         line-height: 51px;
         margin: 0;
+
+        @media (max-width: 375px) {
+            font-size: 18px;
+            line-height: 35px;
+        }
     }
 
     .logement-location {
         color: #FF6060;
         font-size: 18px;
         line-height: 26px;
+
+        @media (max-width: 375px) {
+            font-size: 14px;
+            margin: 0;
+            margin-bottom: 10px;
+        }
     }
 
     .logement-all-button {
@@ -26,12 +37,20 @@
     display: flex;
     justify-content: space-between;
     margin: 0% 5%;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
 }
 
 .collapse-logement {
     display: flex;
     justify-content: space-between;
     margin: 0% 5% 10% 5%;
+
+    @media (max-width: 375px) {
+        margin: 0% 5%;
+    }
 
     .collapse {
         width: 45%;
@@ -46,11 +65,22 @@
     display: flex;
     flex-direction: column;
     width: 150px;
+
+    @media (max-width: 768px) {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
 }
 
 .countainer-star {
     margin-top: 20px;
     margin-bottom: 30px;
+
+    @media (max-width: 768px) {
+        margin: 0;
+    }
 }
 
 .logement-picture-name {
@@ -65,11 +95,21 @@
         width: 93px;
         text-align: right;
         margin-right: 10px;
+
+        @media (max-width: 375px) {
+            font-size: 12px;
+            width: 60px;
+        }
     }
 
     .logement-picture {
         border-radius: 50%;
         width: 64px;
         height: 64px;
+
+        @media (max-width: 375px) {
+            width: 40px;
+            height: 40px;
+        }
     }
 }

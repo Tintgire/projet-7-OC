@@ -5,6 +5,16 @@
     background: #FF6060;
     border-radius: 5px;
     height: 47px;
+
+    @media (max-width: 768px) {
+        margin-top: 40px;
+        height: 50px;
+    }
+
+    @media (max-width: 375px) {
+        margin-top: 20px;
+        height: 30px;
+    }
 }
 
 h2 {
@@ -14,21 +24,39 @@ h2 {
     font-size: 24px;
 }
 
+.collapse-texte {
+    @media (max-width: 768px) {
+        font-size: 13px;
+    }
+}
+
 .button-collapse {
     background: #FF6060;
     border-radius: 5px;
     border-style: none;
     margin-right: 25px;
+
+    @media (max-width: 768px) {
+        margin-right: 10px;
+    }
 }
 
 .vector {
     transform: rotate(0deg);
     transition: transform 0.9s ease;
+
+    @media (max-width: 375px) {
+        width: 20px;
+    }
 }
 
 .vectordown {
     transform: rotate(180deg);
     transition: transform 0.9s ease;
+
+    @media (max-width: 375px) {
+        width: 20px;
+    }
 }
 
 .texte {
@@ -41,6 +69,10 @@ h2 {
     max-height: 9999px;
     transition: all 1s cubic-bezier(1, 0, 1, 0);
     line-height: 142.6%;
+
+    @media (max-width: 768px) {
+        font-size: 12px;
+    }
 }
 
 .textedown {
@@ -52,4 +84,8 @@ h2 {
     overflow: hidden;
     transition: all 1s cubic-bezier(0, 1, 0, 1);
     line-height: 142.6%;
+
+    @media (max-width: 768px) {
+        font-size: 12px;
+    }
 }

@@ -1,11 +1,22 @@
 .carrousel {
     margin: 5% 5%;
-    height: 415px;
     overflow: hidden;
     display: flex;
     border-radius: 25px;
     position: relative;
     flex-direction: column;
+
+    @media (min-width: 769px) {
+        height: 415px;
+    }
+
+    @media (max-width: 768px) {
+        height: 255px;
+    }
+
+    @media (max-width: 375px) {
+        flex-direction: row;
+    }
 
     .imgabout {
         width: 100%;
@@ -28,6 +39,15 @@
         position: absolute;
         top: 40%;
         cursor: pointer;
+
+        @media (max-width: 768px) {
+            height: 50px;
+        }
+
+        @media (max-width: 375px) {
+            height: 20px;
+            top: 45%;
+        }
     }
 
     .arrowleft {
@@ -46,6 +66,11 @@
         font-size: 20px;
         bottom: 2%;
         left: 49.5%;
+
+        @media (max-width: 768px) {
+            left: 48%;
+            bottom: 0;
+        }
     }
 
     .slide {
