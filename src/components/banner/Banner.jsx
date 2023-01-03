@@ -2,7 +2,6 @@ import './Banner.scss'
 
 export default function banner(props) {
   return (
-    /* render Chez vous, partout et ailleurs*/
     <div className="banner">
       <img
         className="banner__imghome background"
