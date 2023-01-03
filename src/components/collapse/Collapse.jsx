@@ -16,7 +16,7 @@ export default function Collapse({ id, title, texte, i }) {
   return (
     <div key={id} className="collapse">
       <div className="title">
-        <h2>{title}</h2>
+        <h2 className="collapse-texte">{title}</h2>
         <button className="button-collapse">
           <img
             className={selected === i ? 'vector' : 'vectordown'}
