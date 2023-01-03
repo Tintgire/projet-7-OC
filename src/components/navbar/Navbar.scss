@@ -4,6 +4,10 @@
 
 .linkabout {
     margin: 0px 0px 0px 57px;
+
+    @media (max-width: 768px) {
+        margin: 0px 0px 0px 10px;
+    }
 }
 
 .link-header {
@@ -11,4 +15,12 @@
     font-size: 24px;
     font-weight: 500;
     border-bottom: 1px solid #FF6060;
+
+    @media (max-width: 768px) {
+        font-size: 18px;
+    }
+
+    @media (max-width: 375px) {
+        font-size: 12px;
+    }
 }

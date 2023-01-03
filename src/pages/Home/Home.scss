@@ -3,6 +3,10 @@ main {
     justify-content: space-around;
     flex-wrap: wrap;
     margin: 5% 7.5%;
+
+    @media (max-width: 768px) {
+        margin: 5%;
+    }
 }
 
 article,
@@ -13,6 +17,11 @@ article,
     height: 340px;
     width: 340px;
     border-radius: 10px;
+
+    @media (max-width: 768px) {
+        height: 255px;
+        width: 100%;
+    }
 }
 
 article {

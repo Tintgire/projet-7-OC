@@ -5,6 +5,16 @@
     height: 223px;
     margin-top: 70px;
 
+    @media (max-width: 768px) {
+        margin-top: 35px;
+        height: 150px;
+    }
+
+    @media (max-width: 375px) {
+        margin-top: 20px;
+        height: 111px;
+    }
+
     &__imghome {
         object-fit: cover;
 
@@ -22,14 +32,24 @@
         height: 100%;
         width: 90%;
         border-radius: 25px;
+
+        @media (max-width: 768px) {
+            border-radius: 10px;
+        }
     }
 }
 
 h1 {
     display: flex;
+    justify-content: center;
     align-self: center;
+    width: 80%;
     color: #FFFFFF;
     font-weight: 500;
     font-size: 48px;
     z-index: 1;
+
+    @media (max-width: 768px) {
+        font-size: 24px;
+    }
 }

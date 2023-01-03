@@ -16,5 +16,15 @@ footer {
         font-weight: 500;
         font-size: 24px;
         margin-top: 3%;
+        text-align: center;
+
+        @media (max-width: 768px) {
+            font-size: 18px;
+            margin-bottom: 60px;
+        }
+
+        @media (max-width: 375px) {
+            font-size: 12px;
+        }
     }
 }
