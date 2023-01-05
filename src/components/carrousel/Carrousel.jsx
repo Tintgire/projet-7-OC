@@ -1,15 +1,9 @@
 import './Carrousel.scss'
-import { useParams } from 'react-router-dom'
 import { useState } from 'react'
-import CardItems from '../../DataBase/logement.js'
 import Vectorleft from '../../assets/Vectorleft.png'
 import Vectorright from '../../assets/Vectorright.png'
 
-export default function Carrousel() {
-  const { id } = useParams()
-  const foundItem = CardItems.find((item) => item.id === id)
-  const pictures = foundItem.pictures
-
+export default function Carrousel({ pictures }) {
   const [current, setCurrent] = useState(0)
 
   const prevSlide = () => {

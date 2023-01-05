@@ -20,7 +20,7 @@ export default function Logement() {
   return (
     <div className="logement">
       <Header />
-      <Carrousel />
+      <Carrousel pictures={foundItem.pictures} />
       <div className="main">
         <div>
           <h3 className="logement-title">{foundItem.title}</h3>

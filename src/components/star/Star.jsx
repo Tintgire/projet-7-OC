@@ -2,9 +2,9 @@ import Starcolor from '../../assets/star.png'
 import Starnocolor from '../../assets/starnocolor.png'
 import './Star.scss'
 
-export default function Star(props) {
+export default function Star({ rating }) {
   const MaxStar = 5
-  const nbStar = props.rating
+  const nbStar = rating
   const stars = []
 
   for (let i = 0; i < MaxStar; i++) {
