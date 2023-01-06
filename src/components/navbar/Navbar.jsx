@@ -1,15 +1,27 @@
 import './Navbar.scss'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 export default function Navbar() {
+  let activeStyle = {
+    textDecoration: 'underline',
+  }
+
   return (
     <nav>
-      <Link className="linkacceuil link-header" to="/">
+      <NavLink
+        style={({ isActive }) => (isActive ? undefined : activeStyle)}
+        className="linkacceuil link-header"
+        to="/"
+      >
         Accueil
-      </Link>
-      <Link className="linkabout link-header" to="/about">
+      </NavLink>
+      <NavLink
+        style={({ isActive }) => (isActive ? undefined : activeStyle)}
+        className="linkabout link-header"
+        to="/about"
+      >
         A Propos
-      </Link>
+      </NavLink>
     </nav>
   )
 }
