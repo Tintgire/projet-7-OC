@@ -14,12 +14,9 @@
         height: 255px;
     }
 
-    @media (max-width: 375px) {
-        flex-direction: row;
-    }
-
     .imgabout {
         width: 100%;
+        height: inherit;
         object-fit: cover;
         border-radius: 25px;
     }
@@ -76,6 +73,7 @@
     .slide {
         border-radius: 25px;
         display: flex;
-        height: 100%;
+        height: inherit;
+        width: inherit;
     }
 }
