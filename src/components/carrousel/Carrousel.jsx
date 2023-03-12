@@ -5,6 +5,7 @@ import Vectorright from '../../assets/Vectorright.png'
 
 export default function Carrousel({ pictures }) {
   const [current, setCurrent] = useState(0)
+  const length = pictures.length
 
   const prevSlide = () => {
     setCurrent(current === 0 ? pictures.length - 1 : current - 1)
@@ -31,18 +32,22 @@ export default function Carrousel({ pictures }) {
           </div>
         )
       })}
-      <img
-        className="arrowleft"
-        src={Vectorleft}
-        alt="Flèche pour aller à l'img précédente"
-        onClick={prevSlide}
-      />
-      <img
-        className="arrowright"
-        src={Vectorright}
-        alt="Flèche pour aller à l'img suivante"
-        onClick={nextSlide}
-      />
+      {length > 1 && (
+        <img
+          className="arrowleft"
+          src={Vectorleft}
+          alt="Flèche pour aller à l'img précédente"
+          onClick={prevSlide}
+        />
+      )}
+      {length > 1 && (
+        <img
+          className="arrowright"
+          src={Vectorright}
+          alt="Flèche pour aller à l'img suivante"
+          onClick={nextSlide}
+        />
+      )}
     </div>
   )
 }
