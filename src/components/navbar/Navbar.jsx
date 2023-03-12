@@ -9,14 +9,14 @@ export default function Navbar() {
   return (
     <nav>
       <NavLink
-        style={({ isActive }) => (isActive ? undefined : activeStyle)}
+        style={({ isActive }) => (isActive ? activeStyle : undefined)}
         className="linkacceuil link-header"
         to="/"
       >
         Accueil
       </NavLink>
       <NavLink
-        style={({ isActive }) => (isActive ? undefined : activeStyle)}
+        style={({ isActive }) => (isActive ? activeStyle : undefined)}
         className="linkabout link-header"
         to="/about"
       >

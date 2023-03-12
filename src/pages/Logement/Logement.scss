@@ -50,10 +50,15 @@
 
     @media (max-width: 375px) {
         margin: 0% 5%;
+        flex-direction: column;
     }
 
     .collapse {
         width: 45%;
+
+        @media (max-width: 375px) {
+            width: 100%;
+        }
     }
 
     li {
